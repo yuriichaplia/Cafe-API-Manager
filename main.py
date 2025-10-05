@@ -8,6 +8,7 @@ from flask import Flask, jsonify, render_template, request
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 
 load_dotenv()
+
 app = Flask(__name__)
 
 class Base(DeclarativeBase):
